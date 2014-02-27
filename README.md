@@ -1,6 +1,6 @@
 #DL Format Check
 
-<img src="https://github.com/clutchanalytics/mvr/raw/master/misc/derby.jpg"/>
+<img src="https://github.com/clutchanalytics/dl_format_check/raw/master/misc/lambo.jpg"/>
 
 *Home-built Lamborghini Countach*  
 
