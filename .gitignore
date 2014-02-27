@@ -1,0 +1,16 @@
+.eunit
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
+/deps
+/data
+ebin
+/log
+test/tmp
+_build/
+*.so
+priv/*.so.dSYM
+/docs
+/tmp
