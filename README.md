@@ -1,4 +1,8 @@
-dl_format_check
-===============
+#DL Format Check
 
-Verifies that a given drivers license fits that format for the state (a simple check of validity)
+<img src="https://github.com/clutchanalytics/mvr/raw/master/misc/derby.jpg"/>
+
+*Home-built Lamborghini Countach*  
+
+
+ Verifies that a given drivers license numbe fits the format of the given state. Only does florida at the moment. 
