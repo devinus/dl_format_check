@@ -14,3 +14,4 @@ _build/
 priv/*.so.dSYM
 /docs
 /tmp
+.DS_Store
