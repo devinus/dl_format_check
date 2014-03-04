@@ -6,4 +6,14 @@ defmodule Dlv do
   def start(_type, _args) do
     Dlv.Supervisor.start_link
   end
+
+@doc """
+Is this module alive? (eg in any runtime is it loaded.)
+
+Dlv.ping() => "pong"
+"""
+  def ping() do
+  	IO.puts "pong"
+  end
+
 end
