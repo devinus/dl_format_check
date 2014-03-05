@@ -11,6 +11,7 @@ ebin
 test/tmp
 _build/
 *.so
+*.swp
 priv/*.so.dSYM
 /docs
 /tmp
