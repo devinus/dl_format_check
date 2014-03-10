@@ -1,8 +1,8 @@
-#DL Format Check
+# DL Format Check
 
-<img src="https://github.com/clutchanalytics/dl_format_check/raw/master/misc/lambo.jpg"/>
+<img src="https://github.com/clutchanalytics/dl_format_check/raw/master/misc/lambo.jpg">
 
 *Home-built Lamborghini Countach*  
 
-
- Verifies that a given drivers license number fits the format of the given state. Only does florida at the moment. 
+Verifies that a given drivers license number fits the format of the given state.
+Only supports Florida at the moment.

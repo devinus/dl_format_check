@@ -1,12 +1,8 @@
 defmodule Dlv.Validate do
 
-  #NOTE pattern match on state atom
-
-  #NOTE gender is an atom, month and day are integers, license# is string
-  def is_valid(:florida, license_number, month, day, gender) do
-    Dlv.Florida.full_validation(license_number, month, day, gender)
+  @spec is_valid(atom, String.t, integer, integer, atom) :: boolean
+  def is_valid(:florida, license, month, day, gender) when gender in [:male, :female] do
+    Dlv.States.Florida.full_validation(license, month, day, gender)
   end
 
-  #def is_validate(:texas, license_number) do
-  #end
 end
